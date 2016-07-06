@@ -1,0 +1,106 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Helvetica';
+}
+.header {
+	background-color: #111a29;
+	color: #ffffff;
+}
+.first {
+	padding: 0 15%;
+	height: 100%;
+}
+.first h2 {
+	margin: 20px 0 0;
+	padding: 0;
+	font-weight: 300;
+}	
+.first p {
+	font-size: 17px;
+}
+.first span {
+	font-size: 10px;
+	font-weight: lighter;
+}
+img {
+	float: right;	
+}
+.first:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+}
+.first p {
+	vertical-align: middle;
+	margin: 0;
+}
+.first h2 {
+	vertical-align: middle;	
+}
+.second {
+	background-color: #bfd4de;
+	color: #364654;
+	height: 40px;
+	clear: both;
+	line-height: 40px;
+}
+.second p {
+	font-size: 18px;
+	margin-left: 220px;
+}
+
+.main {
+	background-color: #e3f1f9;
+	min-height: 100%;
+	margin-bottom: -40px;
+}
+.content {
+	background-color: #fff;
+	margin: 0 15%;
+	padding: 10px 0px 40px 10px;
+}
+
+.content label {
+	display: inline-block;
+	text-align: right;
+	width: 20%;
+	font-size: 12px;
+	font-weight: bold;
+}
+.content input {
+	width: 25%;
+	height: 20px;
+	margin-bottom: 20px;
+	
+}
+.footer {
+	height: 40px;
+	background-color: #364654;
+	color: #fff;
+	padding: 0 15%;
+
+}
+.footer:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.footer p {
+	vertical-align: middle;
+	display: inline;
+}
+.footer a {
+	vertical-align: middle;
+	line-height: 40px;
+	float: right;
+	margin:0 20px;
+	
+	color: #fff;
+}
+.content:nth-last-child {
+	width: 50px;
+}
