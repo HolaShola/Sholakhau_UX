@@ -28,7 +28,7 @@ html, body {
 img {
 	float: right;	
 }
-.first:before {
+.first::before {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
@@ -83,7 +83,7 @@ img {
 	padding: 0 15%;
 
 }
-.footer:before {
+.footer::before {
 	content: '';
 	display: inline-block;
 	height: 100%;
